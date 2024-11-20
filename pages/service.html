@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../assets/svg/logo.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmmFlow</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="../dist/css/output.css">
+</head>
+<body>
+
+    <!-- Header Start -->
+        <header>
+            <nav class="shadow-md">
+                <div class="container1">
+                    <div class="flex justify-between items-center flex-wrap py-[18px]">
+                        <div class="flex items-center flex-wrap gap-[38px]">
+                            <div><a href="../index.html"><img src="../assets/svg/logo.svg" alt="logo"></a></div>
+                            <div>
+                                <ul class=" gap-5 hidden md:flex">
+                                    <li>
+                                        <a href="../pages/service.html">Услуги</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Преимущества</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Отзывы</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                        <div class="hidden items-center gap-[30px] md:flex">
+                            <div>
+                                <a href="#">Войти</a>
+                            </div>
+                            <div>
+                                <button class="py-[12px] px-[24px] bg-[#1D4ED8] text-white rounded-lg">
+                                    Быстрый заказ
+                                </button>
+                            </div>
+                        </div>
+                        <nav class="uk-navbar md:hidden">
+                            <div class="">
+                                <div uk-navbar>
+                                    <div class="uk-navbar-left">
+                                        <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+                                        <div class="uk-navbar-dropdown">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                <li class="uk-active"><a href="../pages/service.html">Услуги</a></li>
+                                                <li><a href="#">Преимущества</a></li>
+                                                <li><a href="#">Отзывы</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                        
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- <div class="hero py-[50px]">
+                <div class="container1">
+                    <div class="hero_in grid items-center grid-cols-1 md:grid-cols-2">
+                        <div class="flex flex-col gap-[30px]">
+                            <h3 class="text-[24px] font-bold md:text-[46px]">Продвижение во всех соцсетях за пару кликов</h3>
+                            <p class="text-[16px] text-[#000] md:text-[20px]">Получайте подписчиков, лайки, репосты, просмотры, прослушивания и любую другую активность на свои профили в социальных сетях по самым низким ценами на рынке и в самые быстрые сроки!</p>
+                            <div>
+                                <button class="py-[12px] px-[24px] bg-1 text-[16px] text-white rounded-lg md:text-[18px]">Начать продвижение</button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../assets/img/hero.png" alt="hero">
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+            <div class="bg-white py-10">
+                <div class="container1 px-4">
+                  <div class="grid grid-cols-1 justify-center  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-6">
+                    <!-- Instagram -->
+                    <div>
+                      <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                        <img src="../assets/img/insta.png" alt="Instagram" class="w-5 h-5"> 
+                        <span>Instagram</span>
+                      </h3>
+                      <ul class="text-sm text-gray-700 space-y-1">
+                        <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                        <li class="hover:text-1 cursor-pointer">Лайки</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                        <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                        <li class="hover:text-1 cursor-pointer">Истории</li>
+                        <li class="hover:text-1 cursor-pointer">Зрители</li>
+                        <li class="hover:text-1 cursor-pointer">Статистика</li>
+                      </ul> 
+                    </div> 
+                    <!-- Telegram --> 
+                    <div>  
+                      <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                        <img src="../assets/img/tg.png" alt="Telegram" class="w-5 h-5"> 
+                        <span>Telegram</span>
+                      </h3> 
+                      <ul class="text-sm text-gray-700 space-y-1">
+                        <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                        <li class="hover:text-1 cursor-pointer">Реакции</li>
+                        <li class="hover:text-1 cursor-pointer">Голосование</li>
+                        <li class="hover:text-1 cursor-pointer">Репосты</li>
+                        <li class="hover:text-1 cursor-pointer">Старт бота</li>
+                        <li class="hover:text-1 cursor-pointer">Telegraph просмотры</li>
+                        <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                      </ul> 
+                    </div> 
+                    <!-- VK  -->
+                    <div>  
+                      <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                        <img src="../assets/img/vk.png" alt="VK" class="w-5 h-5"> 
+                        <span>VK</span>
+                      </h3>  
+                      <ul c class="hover:text-1 cursor-pointer"lass="text-sm text-gray-700 space-y-1">
+                        <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                        <li class="hover:text-1 cursor-pointer">Лайки</li>
+                        <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                        <li class="hover:text-1 cursor-pointer">Репосты</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры на видео</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры на пост</li>
+                        <li class="hover:text-1 cursor-pointer">Накрутка опросов</li>
+                        <li class="hover:text-1 cursor-pointer">Прослушивания</li>
+                        <li class="hover:text-1 cursor-pointer">Релиз плейлиста</li>
+                      </ul> 
+                    </div> 
+                    <!-- TikTok -->
+                    <div>
+                      <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                        <img src="../assets/img/tiktok.png" alt="TikTok" class="w-5 h-5"> 
+                        <span>TikTok</span>
+                      </h3>
+                      <ul c class="hover:text-1 cursor-pointer"lass="text-sm text-gray-700 space-y-1">
+                        <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                        <li class="hover:text-1 cursor-pointer">Лайки</li>
+                        <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                        <li class="hover:text-1 cursor-pointer">Репосты</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                      </ul>
+                    </div> 
+                    <!-- YouTube -->
+                    <div> 
+                      <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                        <img src="../assets/img/yt.png" alt="YouTube" class="w-5 h-5"> 
+                        <sp class="hover:text-1 cursor-pointer"an>YouTube</sp>
+                      </h3>
+                      <ul class="text-sm text-gray-700 space-y-1">
+                        <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры трансляций</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры Shorts</li>
+                        <li class="hover:text-1 cursor-pointer">Лайки</li>
+                        <li class="hover:text-1 cursor-pointer">Дизлайки</li>
+                        <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                        <li class="hover:text-1 cursor-pointer">Репосты</li>
+                        <li class="hover:text-1 cursor-pointer">Часы просмотров</li>
+                      </ul> 
+                    </div>  
+                    <!-- Twitch -->
+                    <div> 
+                      <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                        <img src="../assets/img/twitch.png" alt="Twitch" class="w-5 h-5"> 
+                        <sp class="hover:text-1 cursor-pointer"an>Twitch</sp>
+                      </h3>
+                      <ul class="text-sm text-gray-700 space-y-1">
+                        <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                        <li class="hover:text-1 cursor-pointer">Зрители</li>
+                      </ul> 
+                    </div>  
+                    <!-- Facebook -->
+                    <div> 
+                      <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                        <img src="../assets/img/face.png" alt="Facebook" class="w-5 h-5"> 
+                        <span>Facebook</span>
+                      </h3>  
+                      <ul c class="hover:text-1 cursor-pointer"lass="text-sm text-gray-700 space-y-1">
+                        <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                        <li class="hover:text-1 cursor-pointer">Лайки</li>
+                        <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                        <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                        <li class="hover:text-1 cursor-pointer">Истории</li>
+                        <li class="hover:text-1 cursor-pointer">Зрители</li>
+                        <li class="hover:text-1 cursor-pointer">Статистика</li>
+                      </ul>
+                    </div>
+                    <!-- Instagram -->
+                    <div>
+                        <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                          <img src="../assets/img/insta.png" alt="Instagram" class="w-5 h-5"> 
+                          <span>Instagram</span>
+                        </h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                          <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                          <li class="hover:text-1 cursor-pointer">Лайки</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                          <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                          <li class="hover:text-1 cursor-pointer">Истории</li>
+                          <li class="hover:text-1 cursor-pointer">Зрители</li>
+                          <li class="hover:text-1 cursor-pointer">Статистика</li>
+                        </ul> 
+                      </div> 
+                      <!-- Telegram --> 
+                      <div>  
+                        <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                          <img src="../assets/img/tg.png" alt="Telegram" class="w-5 h-5"> 
+                          <span>Telegram</span>
+                        </h3> 
+                        <ul class="text-sm text-gray-700 space-y-1">
+                          <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                          <li class="hover:text-1 cursor-pointer">Реакции</li>
+                          <li class="hover:text-1 cursor-pointer">Голосование</li>
+                          <li class="hover:text-1 cursor-pointer">Репосты</li>
+                          <li class="hover:text-1 cursor-pointer">Старт бота</li>
+                          <li class="hover:text-1 cursor-pointer">Telegraph просмотры</li>
+                          <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                        </ul> 
+                      </div> 
+                      <!-- VK  -->
+                      <div>  
+                        <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                          <img src="../assets/img/vk.png" alt="VK" class="w-5 h-5"> 
+                          <span>VK</span>
+                        </h3>  
+                        <ul c class="hover:text-1 cursor-pointer"lass="text-sm text-gray-700 space-y-1">
+                          <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                          <li class="hover:text-1 cursor-pointer">Лайки</li>
+                          <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                          <li class="hover:text-1 cursor-pointer">Репосты</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры на видео</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры на пост</li>
+                          <li class="hover:text-1 cursor-pointer">Накрутка опросов</li>
+                          <li class="hover:text-1 cursor-pointer">Прослушивания</li>
+                          <li class="hover:text-1 cursor-pointer">Релиз плейлиста</li>
+                        </ul> 
+                      </div> 
+                      <!-- TikTok -->
+                      <div>
+                        <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                          <img src="../assets/img/tiktok.png" alt="TikTok" class="w-5 h-5"> 
+                          <span>TikTok</span>
+                        </h3>
+                        <ul c class="hover:text-1 cursor-pointer"lass="text-sm text-gray-700 space-y-1">
+                          <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                          <li class="hover:text-1 cursor-pointer">Лайки</li>
+                          <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                          <li class="hover:text-1 cursor-pointer">Репосты</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                        </ul>
+                      </div> 
+                      <!-- YouTube -->
+                      <div> 
+                        <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                          <img src="../assets/img/yt.png" alt="YouTube" class="w-5 h-5"> 
+                          <sp class="hover:text-1 cursor-pointer"an>YouTube</sp>
+                        </h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                          <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры трансляций</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры Shorts</li>
+                          <li class="hover:text-1 cursor-pointer">Лайки</li>
+                          <li class="hover:text-1 cursor-pointer">Дизлайки</li>
+                          <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                          <li class="hover:text-1 cursor-pointer">Репосты</li>
+                          <li class="hover:text-1 cursor-pointer">Часы просмотров</li>
+                        </ul> 
+                      </div>  
+                      <!-- Twitch -->
+                      <div> 
+                        <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                          <img src="../assets/img/twitch.png" alt="Twitch" class="w-5 h-5"> 
+                          <sp class="hover:text-1 cursor-pointer"an>Twitch</sp>
+                        </h3>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                          <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                          <li class="hover:text-1 cursor-pointer">Зрители</li>
+                        </ul> 
+                      </div>  
+                      <!-- Facebook -->
+                      <div> 
+                        <h3 class="flex items-center space-x-2 font-bold text-gray-800 mb-2">
+                          <img src="../assets/img/face.png" alt="Facebook" class="w-5 h-5"> 
+                          <span>Facebook</span>
+                        </h3>  
+                        <ul c class="hover:text-1 cursor-pointer"lass="text-sm text-gray-700 space-y-1">
+                          <li class="hover:text-1 cursor-pointer">Подписчики</li>
+                          <li class="hover:text-1 cursor-pointer">Лайки</li>
+                          <li class="hover:text-1 cursor-pointer">Просмотры</li>
+                          <li class="hover:text-1 cursor-pointer">Комментарии</li>
+                          <li class="hover:text-1 cursor-pointer">Истории</li>
+                          <li class="hover:text-1 cursor-pointer">Зрители</li>
+                          <li class="hover:text-1 cursor-pointer">Статистика</li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+        </header>
+    <!-- Header End -->
+
+
+    <!-- Main Start -->
+        <main>
+            <section class="order bg-1 py-[50px]">
+                <div class="container1">
+                    <div class="order_in">
+                        <h3 class="flex justify-center text-[24px] font-bold text-white md:text-[36px]"> 
+                            Быстрый
+                        </h3>
+
+                        <div class="grid grid-cols-2  items-center px-[10px] gap-5  w-full bg-white rounded-xl mt-[40px] sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-10 ">
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/img/insta.png" alt="">
+                                    <p class="font-bold text-[18px] text-[#000]">Instagram</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/img/vk.png" alt="">
+                                    <p class="font-bold text-[18px] text-[#000]">VK</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/img/tiktok.png" alt="">
+                                    <p class="font-bold text-[18px] text-[#000]">TikTok</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/img/tg.png" alt="">
+                                    <p class="font-bold text-[18px] text-[#000]">Telegram</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/img/yt.png" alt="">
+                                    <p class="font-bold text-[18px] text-[#000]">YouTube</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/img/face.png" alt="">
+                                    <p class="font-bold text-[18px] text-[#000]">Facebook</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/img/twitter.png" alt="">
+                                    <p class="font-bold text-[18px] text-[#000]">Twitter</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/img/twitch.png" alt="">
+                                    <p class="font-bold text-[18px] text-[#000]">Twitch</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/img/rutube.png" alt="">
+                                    <p class="font-bold text-[18px] text-[#000]">RuTube</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#" class="flex gap-1 items-center py-[12px] px-[13px] bg-white hover:bg-slate-200">
+                                    <img src="../assets/svg/array-right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+
+                        <div class="cards grid gap-5 grid-cols-1 mt-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+                            <div class="card flex flex-col gap-3 items-center rounded-xl bg-white py-[50px] px-[48px]">
+                                <img src="../assets/img/smile1.png" alt="">
+                                <h3 class="font-bold text-[20px] text-[#000]">Подписчики</h3>
+                            </div>
+                            <div class="card flex flex-col gap-3 items-center rounded-xl bg-white py-[50px] px-[48px]">
+                                <img src="../assets/img/smile2.png" alt="">
+                                <h3 class="font-bold text-[20px] text-[#000]">Лайки</h3>
+                            </div>
+                            <div class="card flex flex-col gap-3 items-center rounded-xl bg-white py-[50px] px-[48px]">
+                                <img src="../assets/img/smile4.png" alt="">
+                                <h3 class="font-bold text-[20px] text-[#000]">Просмотры</h3>
+                            </div>
+                            <div class="card flex flex-col gap-3 items-center rounded-xl bg-white py-[50px] px-[48px]">
+                                <img src="../assets/img/smile5.png" alt="">
+                                <h3 class="font-bold text-[20px] text-[#000]">Комментарии</h3>
+                            </div>
+                            <div class="card flex flex-col gap-3 items-center rounded-xl bg-white py-[50px] px-[48px]">
+                                <img src="../assets/img/smile6.png" alt="">
+                                <h3 class="font-bold text-[20px] text-[#000]">Просмотры</h3>
+                            </div>
+                            <div class="card flex flex-col gap-3 items-center rounded-xl bg-white py-[50px] px-[48px]">
+                                <img src="../assets/img/smile7.png" alt="">
+                                <h3 class="font-bold text-[20px] text-[#000] text-center max-w-[180px] w-full">Зрители в прямой
+                                    эфир </h3>
+                            </div>
+                            <div class="card flex flex-col gap-3 items-center rounded-xl bg-white py-[50px] px-[48px]">
+                                <img src="../assets/img/smile8.png" alt="">
+                                <h3 class="font-bold text-[20px] text-[#000]">Статистика</h3>
+                            </div>
+                            <div class="card flex flex-col gap-3 items-center rounded-xl bg-white py-[50px] px-[48px]">
+                                <img src="../assets/img/smile9.png" alt="">
+                                <h3 class="font-bold text-[20px] text-[#000]">IGTV</h3>
+                            </div>
+                            <div class="card flex flex-col gap-3 items-center rounded-xl bg-white py-[50px] px-[48px]">
+                                <img src="../assets/img/smile10.png" alt="">
+                                <h3 class="font-bold text-[20px] text-[#000]">Reels</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="client py-[60px]">
+                <div class="container1">
+                    <div class="client_in">
+                        <h3 class="flex justify-center font-bold text-[#000] text-[24px] md:text-[36px]">
+                            Отзывы клиентов
+                        </h3>
+
+                        <div class="comments mt-[40px]">
+                            <div 
+                            uk-slider="
+                            autoplay: true 
+                            autoplay-interval: 500"
+                            >
+
+                                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                            
+                                    <div class="uk-slider-items flex gap-5 uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                                        <div class="flex gap-6">
+                                            <div class="uk-card uk-card-default bg-[#F8F8F9] rounded-xl">
+                                                <div class="uk-card-header">
+                                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-border-circle" width="40" height="40" src="../assets/img/avatar1.png" alt="Avatar">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <h3 class="uk-card-title uk-margin-remove-bottom">Александр</h3>
+                                                            <p class="uk-text-meta uk-margin-remove-top"><img src="../assets/img/star.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <p>Купила подписчиков в Instagram через SMMFLOW, очень довольна результатом. Поступали плавно и незаметно, что важно для меня. </p>
+                                                </div>
+                                                <div class="uk-card-footer">
+                                                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <div class="uk-card uk-card-default bg-[#F8F8F9] rounded-xl">
+                                                <div class="uk-card-header">
+                                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-border-circle" width="40" height="40" src="../assets/img/avatar1.png" alt="Avatar">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <h3 class="uk-card-title uk-margin-remove-bottom">Анна</h3>
+                                                            <p class="uk-text-meta uk-margin-remove-top"><img src="../assets/img/star.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <p>Купила подписчиков в Instagram через SMMFLOW, очень довольна результатом. Поступали плавно и незаметно, что важно для меня. </p>
+                                                </div>
+                                                <div class="uk-card-footer">
+                                                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <div class="uk-card uk-card-default bg-[#F8F8F9] rounded-xl">
+                                                <div class="uk-card-header">
+                                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-border-circle" width="40" height="40" src="../assets/img/avatar1.png" alt="Avatar">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <h3 class="uk-card-title uk-margin-remove-bottom">Дмитрий</h3>
+                                                            <p class="uk-text-meta uk-margin-remove-top"><img src="../assets/img/star.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <p>Купила подписчиков в Instagram через SMMFLOW, очень довольна результатом. Поступали плавно и незаметно, что важно для меня. </p>
+                                                </div>
+                                                <div class="uk-card-footer">
+                                                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <div class="uk-card uk-card-default bg-[#F8F8F9] rounded-xl">
+                                                <div class="uk-card-header">
+                                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-border-circle" width="40" height="40" src="../assets/img/avatar1.png" alt="Avatar">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <h3 class="uk-card-title uk-margin-remove-bottom">Ксения</h3>
+                                                            <p class="uk-text-meta uk-margin-remove-top"><img src="../assets/img/star.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <p>Купила подписчиков в Instagram через SMMFLOW, очень довольна результатом. Поступали плавно и незаметно, что важно для меня. </p>
+                                                </div>
+                                                <div class="uk-card-footer">
+                                                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <div class="uk-card uk-card-default bg-[#F8F8F9] rounded-xl">
+                                                <div class="uk-card-header">
+                                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-border-circle" width="40" height="40" src="../assets/img/avatar1.png" alt="Avatar">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <h3 class="uk-card-title uk-margin-remove-bottom">Александр</h3>
+                                                            <p class="uk-text-meta uk-margin-remove-top"><img src="../assets/img/star.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <p>Купила подписчиков в Instagram через SMMFLOW, очень довольна результатом. Поступали плавно и незаметно, что важно для меня. </p>
+                                                </div>
+                                                <div class="uk-card-footer">
+                                                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <div class="uk-card uk-card-default bg-[#F8F8F9] rounded-xl">
+                                                <div class="uk-card-header">
+                                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-border-circle" width="40" height="40" src="../assets/img/avatar1.png" alt="Avatar">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <h3 class="uk-card-title uk-margin-remove-bottom">Александр</h3>
+                                                            <p class="uk-text-meta uk-margin-remove-top"><img src="../assets/img/star.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <p>Купила подписчиков в Instagram через SMMFLOW, очень довольна результатом. Поступали плавно и незаметно, что важно для меня. </p>
+                                                </div>
+                                                <div class="uk-card-footer">
+                                                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <div class="uk-card uk-card-default bg-[#F8F8F9] rounded-xl">
+                                                <div class="uk-card-header">
+                                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-border-circle" width="40" height="40" src="../assets/img/avatar1.png" alt="Avatar">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <h3 class="uk-card-title uk-margin-remove-bottom">Александр</h3>
+                                                            <p class="uk-text-meta uk-margin-remove-top"><img src="../assets/img/star.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <p>Купила подписчиков в Instagram через SMMFLOW, очень довольна результатом. Поступали плавно и незаметно, что важно для меня. </p>
+                                                </div>
+                                                <div class="uk-card-footer">
+                                                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <div class="uk-card uk-card-default bg-[#F8F8F9] rounded-xl">
+                                                <div class="uk-card-header">
+                                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-border-circle" width="40" height="40" src="../assets/img/avatar1.png" alt="Avatar">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <h3 class="uk-card-title uk-margin-remove-bottom">Александр</h3>
+                                                            <p class="uk-text-meta uk-margin-remove-top"><img src="../assets/img/star.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <p>Купила подписчиков в Instagram через SMMFLOW, очень довольна результатом. Поступали плавно и незаметно, что важно для меня. </p>
+                                                </div>
+                                                <div class="uk-card-footer">
+                                                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex gap-6">
+                                            <div class="uk-card uk-card-default bg-[#F8F8F9] rounded-xl">
+                                                <div class="uk-card-header">
+                                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                                        <div class="uk-width-auto">
+                                                            <img class="uk-border-circle" width="40" height="40" src="../assets/img/avatar1.png" alt="Avatar">
+                                                        </div>
+                                                        <div class="uk-width-expand">
+                                                            <h3 class="uk-card-title uk-margin-remove-bottom">Александр</h3>
+                                                            <p class="uk-text-meta uk-margin-remove-top"><img src="../assets/img/star.png" alt=""></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="uk-card-body">
+                                                    <p>Купила подписчиков в Instagram через SMMFLOW, очень довольна результатом. Поступали плавно и незаметно, что важно для меня. </p>
+                                                </div>
+                                                <div class="uk-card-footer">
+                                                    <a href="#" class="uk-button uk-button-text">Read more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                            
+                                </div>
+                            
+                            
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="sale py-[40px]">
+                <div class="container1">
+                    <div class="sale_in bg-[#0058FF] flex flex-wrap items-center justify-around rounded-[50px] py-[40px]">
+                        <div class="max-w-[500px] flex flex-col gap-[30px]">
+                            <h3 class="font-bold text-[24px] text-white md:text-[36px]">Скидки до 50%
+                                в нашем телеграм-канале
+                            </h3>
+                            <p class="text-[16px] text-white font-bold md-[18px] ">
+                                Раздаем промокоды в Telegram каждую неделю
+                            </p>
+                            <div>
+                                <button class="py-[12px] px-[24px] bg-1 text-[16px] text-[#000] text-white rounded-lg md:text-[18px]">Получить промокод</button>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="../assets/img/Sale1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="questions py-[80px]">
+                <div class="container1">
+                    <div class="questions_in">
+
+                        <h3 class="font-bold text-[24px] md:text-[36px] flex justify-center">
+                            Частые вопросы
+                        </h3>
+
+                        <ul uk-accordion class="grid grid-cols-1 gap-5 items-center md:grid-cols-2 mt-5">
+                            <li>
+                                <a class="uk-accordion-title bg-[#F8F8F9] px-[20px] rounded-xl  py-[20px]" href>Как вы гарантируете качество услуг?</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title bg-[#F8F8F9] px-[20px] rounded-xl  py-[20px]" href>Как вы гарантируете качество услуг?</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title bg-[#F8F8F9] px-[20px] rounded-xl  py-[20px]" href>Как вы гарантируете качество услуг?</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title bg-[#F8F8F9] px-[20px] rounded-xl  py-[20px]" href>Как вы гарантируете качество услуг?</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title bg-[#F8F8F9] px-[20px] rounded-xl  py-[20px]" href>Как вы гарантируете качество услуг?</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title bg-[#F8F8F9] px-[20px] rounded-xl  py-[20px]" href>Как вы гарантируете качество услуг?</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title bg-[#F8F8F9] px-[20px] rounded-xl  py-[20px]" href>Как вы гарантируете качество услуг?</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="uk-accordion-title bg-[#F8F8F9] px-[20px] rounded-xl  py-[20px]" href>Как вы гарантируете качество услуг?</a>
+                                <div class="uk-accordion-content">
+                                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    <!-- Main End -->
+
+        <!-- Footer Start -->
+        <footer class="bg-[#F8F8F9] pt-[35px] pb-[120px]">
+            <div class="container1 w-full">
+              <div class="grid w-full grid-cols-1 items-start justify-center sm:grid-cols-2 md:grid-cols-4">
+                <!-- Логотип и описание -->
+                <div class="w-full   sm:mb-0">
+                  <div class="flex items-center space-x-2">
+                    <img src="../assets/svg/logo.svg" alt="SMMFLOW" class="">
+                  </div>
+                  <p class="text-gray-700 mt-4 text-md  font-bold">
+                    SMMFLOW — сервис, где вы сможете приобрести качественное продвижение в социальных сетях по выгодным ценам.
+                  </p>
+                  <div class="flex space-x-4 mt-4">
+                    <img src="../assets/img/mir.png" alt="МИР" >
+                    <img src="../assets/img/visa.png" alt="Visa" >
+                    <img src="../assets/img/master.png" alt="MasterCard" >
+                    <img src="../assets/img/qiwi.png" alt="Qiwi" >
+                  </div>
+                </div>
+          
+                <!-- Ссылки на разделы -->
+                <div class="w-full  sm:mb-0">
+                  <ul class="space-y-2">
+                    <li><a href="#" class="font-bold text-gray-800 hover:text-blue-600">Каталог услуг</a></li>
+                    <li><a href="#" class="font-bold text-gray-800 hover:text-blue-600">Преимущества</a></li>
+                    <li><a href="#" class="font-bold text-gray-800 hover:text-blue-600">Отзывы</a></li>
+                  </ul>
+                </div>
+          
+                <!-- Политики и контакты -->
+                <div class="w-full ">
+                  <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-800 font-bold hover:text-blue-600">Политика конфиденциальности</a></li>
+                    <li><a href="#" class="text-gray-800 font-bold hover:text-blue-600">Публичная оферта</a></li>
+                    <li><a href="#" class="text-gray-800 font-bold hover:text-blue-600">Пользовательское соглашение</a></li>
+                    <li><a href="#" class="text-gray-800 font-bold hover:text-blue-600">Правила сервиса</a></li>
+                    <li><a href="#" class="text-gray-800 font-bold hover:text-blue-600">Контакты</a></li>
+                  </ul>
+              </div>
+              <div class="flex flex-col gap-[15px]">
+                <p class="text-gray-800 font-bold">Нужна помощь?</p>
+                <div>
+                <a href="#" class="text-blue-600 hover:underline py-[16px] bg-[#EBEBEB] px-[26px] text-black">Онлайн-чат</a>
+                </div>
+                <a href="mailto:support@smmflow.net" class="text-black hover:underline">support@smmflow.net</a>
+              </div>
+            </div>
+            </div>
+          </footer>
+        <!-- Footer End -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
